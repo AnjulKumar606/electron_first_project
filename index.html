@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Electron Modern Counter</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Electron Counter (Modern Syntax)</h1>
+    <h2 id="count">0</h2>
+    <button id="increment">Increment</button>
+    <button id="save">Save Count</button>
+    <p id="status"></p>
+
+    <script type="module" src="renderer.js"></script>
+</body>
+
+</html>
