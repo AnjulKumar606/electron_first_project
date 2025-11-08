@@ -1,6 +1,6 @@
 const { contextBridge, ipcRenderer } = require('electron');
 
-console.log('preload: loadeded');
+console.log('preload: loaded');
 
 contextBridge.exposeInMainWorld('electronAPI', {
     saveData: async (content) => {
